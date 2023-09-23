@@ -1,11 +1,14 @@
 
+def fibonacci(fibonacci_Number):
+ number = 0
+ count = 1
+ result = number + count
+ while number < fibonacci_Number:
+    print(number, end= '  ')
+    number = count
+    count = result
+    result = number + count
 
-number = 0
-fibonacci = 1
-result = number + fibonacci
-while number < 50:
-    print(number, end= '    ')
-    number = fibonacci
-    fibonacci = result
-    result = number + fibonacci
+result = fibonacci(50)
 
+print(result)
