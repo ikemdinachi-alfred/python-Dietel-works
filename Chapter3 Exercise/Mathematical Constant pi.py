@@ -1,19 +1,12 @@
-
 user_input = int(input('Enter a number: '))
-denominator = 1
-
-sum = 0
-
-for count in range(6):
-
-     if count % 2 == 0:
-          sum += 4 / denominator
-     else:
-
-          sum -= 4 / denominator
-     denominator += 2
-
-print(sum)
-
-
-
+pi = 4
+second_number = 4
+count = 1
+while count < user_input:
+    pi = pi / count
+    print(pi)
+    count += 2
+    pi = pi - second_number / count
+    print(pi)
+    pi= pi + second_number/5
+    print(pi)
