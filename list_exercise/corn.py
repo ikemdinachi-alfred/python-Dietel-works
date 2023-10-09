@@ -1,8 +1,8 @@
-number = [15, 20, 25, 20, 10, 5]
+number = [15, 20, 25, 20, 10, 1, 500]
 total = 0
 multiply = 1
-largest = 0
-smallest = 25
+largest = number[0]
+smallest = number[0]
 for count in number:
     total = total + count
     multiply = multiply * count
