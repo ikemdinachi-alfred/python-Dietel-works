@@ -1,0 +1,2 @@
+sample_string = " Twinkle, twinkle, little star, \n    How i wonder what you are! Up above thw world so high, \n      like a diamond in the sky.Twinkle, \n twinkle little star, How i wonder what you are"
+print(sample_string)
