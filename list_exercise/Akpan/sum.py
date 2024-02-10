@@ -11,5 +11,7 @@ def sum(value: list):
         new_lst.append(i)
     return new_lst
 
+
+
 my_list = ["fine","love","peace"]
 print(sum(my_list))
